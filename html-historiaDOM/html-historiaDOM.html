@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML & DOM</title>
+	<link rel="stylesheet" type="text/css" href="html-historiaDOM.css">
+</head>	
+
+<body>
+<header>	
+<a href="#main" class="skip-to-main-content-link">Skip to main content</a>
+		<nav>
+			<ul>
+				<li><a href="#welcome">Home</a></li>
+				<li><a href="#welcome">HTML</a></li>
+				<li><a href="#dom">DOM</a></li	>
+				<li><a href="#main">Lagar & Bestämmelser</a>
+			</ul>
+		</nav>
+</header>
+	
+		<h1 class="welcome" id="welcome">Välkommen!</h1> 
+	<main>          
+	<p class="main-text">
+		Under de första fem åren (1990-1995) gick HTML igenom ett antal revisioner och fick ett antal tillägg, främst värd först på CERN och sedan på IETF. Med skapandet av W3C ändrades HTMLs utvecklingsplats igen. Ett första misslyckat försök att utöka HTML 1995, känd som HTML 3.0, gjorde sedan plats för en mer praktisk metod känd som HTML 3.2, som slutfördes 1997. HTML4 följde snabbt senare samma år.
+	</p>
+	<p class="main-text">
+		Året därpå beslutade W3C-medlemskapet att sluta utveckla HTML och istället börja arbeta på en XML-baserad motsvarighet, kallad XHTML. Detta försök började med en omformulering av HTML4 i XML, känd som XHTML 1.0, som inte lade till några nya funktioner förutom den nya serialiseringen, och som slutfördes 2000. Efter XHTML 1.0 vändes W3C:s fokus till att göra det lättare för andra arbetsgrupper att utöka XHTML, under flaggan XHTML Modularization. Samtidigt med detta arbetade W3C också på ett nytt språk som inte var kompatibelt med de tidigare HTML- och XHTML-språken, kallar det XHTML2.
+	</p>
+	<p class="main-text">
+		Runt den tid då HTMLs utveckling stoppades 1998 specificerades delar av API:et för HTML utvecklat av webbläsarleverantörer och publicerades under namnet DOM Level 1 (1998) och DOM Level 2 Core och DOM Level 2 HTML (med start 2000 och som kulminerade 2003). Dessa ansträngningar försvann sedan, med några DOM nivå 3-specifikationer publicerade 2004 men arbetsgruppen stängdes innan alla nivå 3-utkast var färdiga.
+	</p> 
+	<p class="main-text">
+		2003 väckte publiceringen av XForms, en teknik som var positionerad som nästa generation av webbformulär, ett förnyat intresse för att utveckla HTML i sig, snarare än att hitta ersättare för det. Detta intresse kom från insikten att XML:s distribution som webbteknik var begränsad till helt nya teknologier (som RSS och senare Atom), snarare än som en ersättning för befintliga distribuerade tekniker (som HTML).
+	</p>
+
+	<img class= "html-logo" src="htmllogo.png" alt="html5 logo.">
+
+	<p class="main-text">
+		Ett &quot;proof of concept&quot; för att visa att det var möjligt att utöka HTML4s formulär för att tillhandahålla många av de funktioner som XForms 1.0 introducerade, utan att webbläsare skulle behöva implementera renderingsmotorer som var inkompatibla med befintliga HTML-webbsidor, var det första resultatet av detta förnyade intresse. I detta tidiga skede, medan utkastet redan var allmänt tillgängligt och input redan begärdes från alla källor, var specifikationen endast under Opera Softwares upphovsrätt.
+	</p>
+	<p class="main-text">
+		Idén att HTMLs utveckling skulle återupptas testades vid en W3C-workshop 2004, där några av principerna som ligger till grund för HTML5-arbetet (beskrivs nedan), såväl som det tidigare nämnda tidiga förslaget som täcker bara formulärrelaterade funktioner, presenterades för W3C gemensamt av Mozilla och Opera. Förslaget avslogs med motiveringen att förslaget stred mot den tidigare valda riktningen för webbens utveckling; W3C:s personal och medlemmar röstade för att fortsätta utveckla XML-baserade ersättningar istället.
+	</p>
+	<p class="main-text">
+		Kort därefter tillkännagav Apple, Mozilla och Opera tillsammans sin avsikt att fortsätta arbeta med insatsen under paraplyet av en ny plats kallad WHATWG. En offentlig e-postlista skapades och utkastet flyttades till WHATWG-webbplatsen. Upphovsrätten ändrades därefter för att ägas gemensamt av alla tre leverantörerna och för att tillåta återanvändning av specifikationen.
+	</p>
+	<p class="main-text">
+		WHATWG baserades på flera kärnprinciper, särskilt att tekniker måste vara bakåtkompatibla, att specifikationer och implementeringar måste matcha även om detta innebär att man ändrar specifikationen snarare än implementeringarna, och att specifikationer måste vara tillräckligt detaljerade för att implementeringar kan uppnås. fullständig driftskompatibilitet utan att omvända varandra.
+	</p>
+	<p class="main-text">
+		Särskilt det senare kravet krävde att omfattningen av HTML5-specifikationen inkluderar vad som tidigare hade specificerats i tre separata dokument: HTML4, XHTML1 och DOM2 HTML. Det innebar också att inkludera betydligt fler detaljer än vad som tidigare ansetts vara normen.
+	</p>
+	<p class="main-text">
+		2006 indikerade W3C ett intresse av att trots allt delta i utvecklingen av HTML5, och 2007 bildade W3C en arbetsgrupp för att arbeta med WHATWG om utvecklingen av HTML5-specifikationen. Apple, Mozilla och Opera tillät W3C att publicera specifikationen under W3C-upphovsrätten, samtidigt som de behöll en version med den mindre restriktiva licensen på WHATWG-webbplatsen.
+	</p>
+	<p class="main-text">
+		Under ett antal år arbetade sedan båda grupperna tillsammans. 2011 kom dock grupperna till slutsatsen att de hade olika mål: W3C ville publicera en &quot;färdig&quot; version av &quot;HTML5&quot;, medan WHATWG ville fortsätta arbeta med en Living Standard för HTML, med kontinuerligt underhåll av specifikationen istället för att frysa den i ett tillstånd med kända problem och lägga till nya funktioner efter behov för att utveckla plattformen.
+	</p>
+	<p class="main-text">
+		Under 2019 undertecknade WHATWG och W3C ett avtal om att samarbeta om en enda version av HTML framöver: detta dokument.
+	</p>
+	<hr class="grid-col-span-2">
+</section>
+<section id="dom" class="main-dom">
+		<h2 class="sub-title">Vad är DOM?</h2>
+	</header>
+	<p class="main-text">
+		The term "document object model" or "DOM" as it's also called, is a programming interface for online documents. With the help of DOM the structure and content of an HTML (or XML) page are represented as a tree-like structure of objects.
+	</p>
+<img class = "dom-img" src="dom-png.png" alt="Picture of DOM and how its used.">
+	<p class="main-text">
+		The DOM model gives software a mechanism to dynamically access and modify a web page's content, structure, and design. You can navigate around the HTML document's elements using the DOM, access and change their contents and properties, and add or delete items from the page.
+	</p>
+<h2 id="main">Lagar och bestämmelser</h2>
+
+	<p class="maintext">Digital information regleras av en rad olika lagar och bestämmelser som syftar till att skydda personlig integritet, säkerhet, upphovsrätt och andra aspekter av digital kommunikation. Här är några av de viktigaste lagarna och bestämmelserna:
+    <p class="maintext">GDPR - EU:s allmänna dataskyddsförordning: GDPR är en lagstiftning som syftar till att skydda personuppgifter för EU-medborgare och infördes 2018. Det innebär att företag och organisationer måste följa strikta regler när det gäller insamling, lagring och användning av personuppgifter. </p></p>	
+    <p class="maintext">DMCA - Digital Millennium Copyright Act: DMCA är en lagstiftning som infördes i USA för att skydda upphovsrätt till digitalt innehåll. Det innebär att webbplatser och tjänster måste ta bort innehåll som bryter mot upphovsrätten på begäran från rättighetsinnehavare.</p>		
+	<p class="maintext">E-privacy-direktivet: E-privacy-direktivet är en del av EU:s regelverk som reglerar användning av elektronisk kommunikation. Det innebär att användare måste ge sitt samtycke innan cookies och andra spårningstekniker används på deras enheter.</p>
+	<p class="maintext">NIS-direktivet - Nätverk och informations säkerhetsdirektivet: NIS-direktivet är en EU-lagstiftning som reglerar säkerheten för digital infrastruktur. Det innebär att organisationer som tillhandahåller viktiga digitala tjänster måste följa strikta säkerhetskrav för att skydda mot cyberattacker.</p>
+	<p class="maintext">FRA-lagen - Försvarets radioanstalt: FRA-lagen är en svensk lagstiftning som reglerar signalspaning för att skydda Sveriges säkerhet. Lagen har blivit kontroversiell eftersom den tillåter FRA att övervaka kommunikation som passerar landets gränser.</p>
+	<p class="maintext">Dessa lagar och bestämmelser är bara några exempel på hur digital information regleras. Det är viktigt att vara medveten om dessa regler och att följa dem för att säkerställa att både individuell och kollektiv integritet respekteras.</p>
+	</main>
+	<footer>
+		<p>&copy; Benjamins Hemsida. All rights reserved.</p>
+	</footer>
+</body>
+</html>
